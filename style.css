@@ -150,7 +150,7 @@ button.delete img:hover {
 }
 
 /* Completed */
-ul#completed-tasks label {
+.complete-block label {
   text-decoration: line-through;
   color: #888;
 }
@@ -160,11 +160,11 @@ ul li input[type="text"] {
   display: none;
 }
 
-.check-block__item_edit input[type="text"] {
+.todo-block__item_edit input[type="text"] {
   display: inline-block;
   width: 224px;
 }
 
-.check-block__item_edit label {
+.todo-block__item_edit label {
   display: none;
 }
